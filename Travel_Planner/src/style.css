@@ -1,0 +1,50 @@
+.root {
+    -fx-background-color: #ffffff; /* white background */
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: black;
+    -fx-font-size: 13px;
+}
+
+/* Titles */
+.title-label {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+/* Buttons (simple gray) */
+.button {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: black;
+}
+
+/* Text fields */
+.text-field, .combo-box, .date-picker {
+    -fx-background-color: white;
+    -fx-border-color: #b0b0b0;
+}
+
+/* List view */
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #b0b0b0;
+}
+
+/* Selected item (remove blue highlight) */
+.list-cell:filled:selected {
+    -fx-background-color: #dcdcdc; /* light gray instead of blue */
+    -fx-text-fill: black;
+}
+
+/* Text area */
+.text-area {
+    -fx-control-inner-background: white;
+    -fx-text-fill: black;
+}
+
+/* Pane borders (optional simple look) */
+.vbox, .hbox, .border-pane {
+    -fx-background-color: transparent;
+}
